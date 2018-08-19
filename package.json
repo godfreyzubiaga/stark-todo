@@ -1,0 +1,42 @@
+{
+  "name": "stark-todo",
+  "version": "1.0.0",
+  "description": "A minimalistic React Todo App",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godfreyzubiaga/stark-todo.git"
+  },
+  "author": "Godfrey Zubiaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godfreyzubiaga/stark-todo/issues"
+  },
+  "homepage": "https://github.com/godfreyzubiaga/stark-todo#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styled-components": "^3.4.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "prop-types": "^15.6.2",
+    "react-hot-loader": "^4.3.4",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
