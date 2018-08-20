@@ -36,7 +36,7 @@ export default inject('taskStore')(observer((props) => {
     <StyledDiv>
       <Input
         type="text"
-        placeholder="Go Shopping"
+        placeholder="Feed Droggo"
         onChange={taskStore.onChange}
         onKeyUp={taskStore.onkeyPress}
         value={taskStore.inputTask}

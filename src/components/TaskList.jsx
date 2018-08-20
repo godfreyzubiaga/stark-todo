@@ -22,7 +22,7 @@ const TaskContainer = styled.div`
   cursor: pointer;
   text-decoration: ${props => (props.finished ? 'line-through' : 'none')};
   text-decoration-style: ${props => (props.finished ? 'double' : 'none')};
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 
   &:hover, &:focus {
     transition-duration: 0.3s;
