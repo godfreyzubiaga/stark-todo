@@ -35,7 +35,7 @@ class TaskStore {
   toggleFinished(id) {
     const taskIndex = this.tasks.findIndex(task => task.id === id);
     this.tasks[taskIndex].finished = !this.tasks[taskIndex].finished;
-    this.saveToLocalStorage();
+    this.saveToLocalStorage(this.tasks);
   }
 
   @action.bound
